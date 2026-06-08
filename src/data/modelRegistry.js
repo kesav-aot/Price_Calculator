@@ -11,7 +11,6 @@ export const MODEL_REGISTRY = {
       'Flagship model profile for fast multimodal extraction, strict prompt adherence, and low hallucination workflows.',
     visionFormula: 'xai_grok_420',
     strengths: [
-      'Agentic workflows',
       'Ultra-fast inference',
       'High prompt adherence',
       'Low hallucination rate'
@@ -27,7 +26,7 @@ export const MODEL_REGISTRY = {
     outputPrice: 9,
     cacheDiscount: 0.9,
     description:
-      'Optimized profile for parallel agent execution and high-volume multimodal extraction loops.',
+      'Optimized profile for high-volume multimodal extraction loops.',
     visionFormula: 'google_gemini_35',
     strengths: [
       'Strong price-to-performance',
@@ -45,7 +44,7 @@ export const MODEL_REGISTRY = {
     outputPrice: 15,
     cacheDiscount: 0.9,
     description:
-      'Frontier profile for document extraction, multi-step agent actions, tables, and precise coding tasks.',
+      'Frontier profile for document extraction, tables, and precise coding tasks.',
     visionFormula: 'anthropic_claude',
     strengths: [
       'Strong layout and table extraction',

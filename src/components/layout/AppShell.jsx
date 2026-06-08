@@ -53,7 +53,12 @@ export function AppShell({ activeTab, onTabChange, children }) {
 
       <footer className="border-t border-slate-900 bg-slate-950 px-4 py-8 text-xs text-slate-500">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 md:flex-row">
-          <span>Multimodal Pricing Database - Interactive Evaluation Engine</span>
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <span>Multimodal Pricing Database - Interactive Evaluation Engine</span>
+            <span className="text-slate-600">
+              Reference: <a href="https://ai-sdk.dev/playground/anthropic:claude-opus-4-8,openai:gpt-5.2-pro" target="_blank" rel="noreferrer" className="hover:text-indigo-400 transition-colors">Vercel AI SDK Playground</a>
+            </span>
+          </div>
           <span className="font-mono text-[10px]">Version 2.5 - June 2026</span>
         </div>
       </footer>
